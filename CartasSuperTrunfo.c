@@ -12,12 +12,14 @@ int main() {
     char cidade1[50];
     int populacao1;
     float area1;
+    float pib1;
     int turistico1;  
     
     // Variaveis da segunda carta:
     char cidade2[50];
     int populacao2;
     float area2;
+    float pib2;
     int turistico2;   
 
     // INSTRUÇÕES PARA O USUÁRIO INICAR O JOGO SUPER TRUNFO
@@ -33,6 +35,9 @@ int main() {
     printf("Digite a área da cidade: \n");
     scanf("%f", &area1);
 
+    printf("Digite o PIB da cidade: \n");
+    scanf("%f", &pib1);
+
     printf("Digite a quantidade de pontos turísticos da cidade: \n");
     scanf("%d", &turistico1);  
     printf("\n");
@@ -45,8 +50,9 @@ int main() {
     printf("Estado: A\n");
     printf("Código da carta: A01\n");
     printf("Nome da Cidade: %s \n", cidade1);
-    printf("A população da cidade é: %d \n", populacao1);
-    printf("A área da cidade é: %.3f " "KM²\n", area1);
+    printf("A população da cidade é: %d " "Milhões de habitantes.\n", populacao1);
+    printf("A área da cidade é: %.3f " "KM².\n", area1);
+    printf("O PIB da cidade é: %.3f " "Bilhões de reais.\n", pib1);
     printf("Quantidade de pontos turísticos: %d \n", turistico1);
     printf("\n");
 
@@ -63,6 +69,9 @@ int main() {
     printf("Digite a área da cidade: \n");
     scanf("%f", &area2);
 
+    printf("Digite o PIB da cidade: \n");
+    scanf("%f", &pib2);
+
     printf("Digite a quantidade de pontos turísticos da cidade: \n");
     scanf("%d", &turistico2);
     printf("\n");  
@@ -75,8 +84,9 @@ int main() {
     printf("Estado: B\n");
     printf("Código da carta: B02\n");
     printf("Nome da Cidade: %s \n", cidade2);
-    printf("A população da cidade é: %d \n", populacao2);
-    printf("A área da cidade é: %.3f " "KM²\n", area2);
+    printf("A população da cidade é: %d " "Milhões de habitantes.\n", populacao2);
+    printf("A área da cidade é: %.3f " "KM².\n", area2);
+    printf("O PIB da cidade é: %.3f " "Bilhões de reais.\n", pib2);
     printf("Quantidade de pontos turísticos: %d \n", turistico2);
 
 
