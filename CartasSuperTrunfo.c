@@ -4,78 +4,76 @@
 // Tema 1 - Cadastro das Cartas
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
 // Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
+//Aluno: Felipe
 
 int main() {
         
-    //Variaveis da primeira carta:
-    int carta1 = 1;
-    char estado1 = 'A';
-    char codigo1[50] = "A01";
+    // Variaveis da primeira carta:
     char cidade1[50];
     int populacao1;
     float area1;
     int turistico1;  
     
-    //Variaveis da segunda carta:
-    int carta2 = 2;
-    char estado2 = 'B';
-    char codigo2[50] = "B02";
+    // Variaveis da segunda carta:
     char cidade2[50];
     int populacao2;
     float area2;
     int turistico2;   
 
-    //Instrução para usuário iniciar o jogo Super Trunfo
-    printf("Vamos iniciar o nosso jogo, para começar digite os dados da primeira carta a seguir: \n");
+    // INSTRUÇÕES PARA O USUÁRIO INICAR O JOGO SUPER TRUNFO
+    printf("Vamos iniciar o nosso jogo, para começar digite os dados da primeira carta a seguir: \n\n\n");
 
-    // Cadastro da primeira carta:    
-    printf("Digite o nome da Cidade: ");
+    // CADASTRO DA PRIMEIRA CARTA    
+    printf("Digite o nome da Cidade: \n");
     scanf("%s", cidade1);
 
-    printf("Digite a população da cidade: ");
+    printf("Digite a população da cidade: \n");
     scanf("%d", &populacao1);
 
-    printf("Digite a área da cidade: ");
+    printf("Digite a área da cidade: \n");
     scanf("%f", &area1);
 
-    printf("Digite a quantidade de pontos turísticos da cidade: ");
-    scanf("%d", &turistico1);   
+    printf("Digite a quantidade de pontos turísticos da cidade: \n");
+    scanf("%d", &turistico1);  
+    printf("\n");
 
-    //Exibir os dados da primeira carta ao usuário
+    // EXIBIR DADOS DA PRIMEIRA CARTA AO USUÁRIO
     printf("Aqui estão os dados da sua primeira carta: \n");
 
-    //Exibição dos Dados da primeira carta:    
-    printf("Carta: 1\n", carta1);
-    printf("Estado: A\n", estado1);
-    printf("Código da carta: A01\n", codigo1);
+    // EXIBIÇÃO DOS DADOS DA PRIMEIRA CARTA    
+    printf("Carta: 1\n");
+    printf("Estado: A\n");
+    printf("Código da carta: A01\n");
     printf("Nome da Cidade: %s \n", cidade1);
     printf("A população da cidade é: %d \n", populacao1);
     printf("A área da cidade é: %.3f " "KM²\n", area1);
     printf("Quantidade de pontos turísticos: %d \n", turistico1);
+    printf("\n");
 
-    printf("Agora insira os dados da próxima carta: \n");
+    // INSTRUÇÕES PARA O USUÁRIO CONTINUAR O CADASTRO DA SEGUNDA CARTA
+    printf("Agora insira os dados da próxima carta: \n\n");
 
-    //Cadastro segunda carta:
-    printf("Digite o nome da Cidade: ");
+    // CADASTRO DA SEGUNDA CARTA
+    printf("Digite o nome da Cidade: \n");
     scanf("%s", cidade2);
 
-    printf("Digite a população da cidade: ");
+    printf("Digite a população da cidade: \n");
     scanf("%d", &populacao2);
 
-    printf("Digite a área da cidade: ");
+    printf("Digite a área da cidade: \n");
     scanf("%f", &area2);
 
-    printf("Digite a quantidade de pontos turísticos da cidade: ");
-    scanf("%d", &turistico2);  
+    printf("Digite a quantidade de pontos turísticos da cidade: \n");
+    scanf("%d", &turistico2);
+    printf("\n");  
 
-    //Exibir os dados da primeira carta ao usuário
-    printf("Aqui estão os dados da sua primeira carta: \n");
+    // EXIBIR DADOS DA SEGUNDA CARTA AO USUÁRIO
+    printf("Aqui estão os dados da sua segunda carta: \n\n");
 
-    //Exibição dos Dados da primeira carta:
-    printf("Carta: 2\n", carta2);
-    printf("Estado: B\n", estado2);
-    printf("Código da carta: B02\n", codigo2);
+    // EXIBIÇÃO DOS DADOS DA SEGUNDA CARTA:
+    printf("Carta: 2\n");
+    printf("Estado: B\n");
+    printf("Código da carta: B02\n");
     printf("Nome da Cidade: %s \n", cidade2);
     printf("A população da cidade é: %d \n", populacao2);
     printf("A área da cidade é: %.3f " "KM²\n", area2);
