@@ -128,7 +128,7 @@ int main() {
 
     printf("Carta A01 - %s: População %d\n", cidade1, populacao1);
     printf("Carta A02 - %s: População %d\n", cidade2, populacao2);
-    printf("\n");                                                                           
+    printf("\n");                                                                          
 
     if (populacao1 > populacao2){
         printf("A carta A01 (%s) é a vencedora.\n", cidade1);
