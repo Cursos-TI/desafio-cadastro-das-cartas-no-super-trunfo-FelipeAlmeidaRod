@@ -87,8 +87,58 @@ int main() {
     printf("A população da cidade é: %d " "Milhões de habitantes.\n", populacao2);
     printf("A área da cidade é: %.3f " "KM².\n", area2);
     printf("O PIB da cidade é: %.3f " "Bilhões de reais.\n", pib2);
-    printf("Quantidade de pontos turísticos: %d \n", turistico2);
+    printf("Quantidade de pontos turísticos: %d \n\n\n", turistico2);
 
+    // CALCULANDO DENSIDADE E PIB DAS CARTAS
+    float densidadepopulacional1 = populacao1 / area1;
+    float densidadepopulacional2 = populacao2 / area2;
+
+    float pibpercapita1 = pib1 / populacao1;
+    float pibpercapita2 = pib2 / populacao2;
+
+    // MOSTRANDO AS CARTAS COM DOIS NOVOS PODERES: DENSIDADE POPULACIONAL E PIB PER CAPITA
+
+    printf("Dois novos atributos foram incluidos nas suas cartas, DENSIDADE POPULACIONAL e PIB PER CAPITA: \n\n");
+
+    // MOSTRANDO CARTA 1 ATUALIZADA
+    printf("Carta A01 \n");
+    printf("Nome da Cidade: %s \n", cidade1);
+    printf("A população da cidade é: %d " "Milhões de habitantes.\n", populacao1);
+    printf("A área da cidade é: %.3f " "KM².\n", area1);
+    printf("O PIB da cidade é: %.3f " "Bilhões de reais.\n", pib1);
+    printf("Quantidade de pontos turísticos: %d \n", turistico1);
+    printf("Densidade populacional carta: %.2f habitantes por KM².\n", densidadepopulacional1);
+    printf("O Pib Per Capita é: %.2f Mil reais por habitande. \n", pibpercapita1);
+    printf("\n");
+
+    // MOSTRANDO CARTA 2 ATUALIZADA
+
+    printf("Carta B02 \n");
+    printf("Nome da Cidade: %s \n", cidade2);
+    printf("A população da cidade é: %d " "Milhões de habitantes.\n", populacao2);
+    printf("A área da cidade é: %.3f " "KM².\n", area2);
+    printf("O PIB da cidade é: %.3f " "Bilhões de reais.\n", pib2);
+    printf("Quantidade de pontos turísticos: %d \n", turistico2);
+    printf("Densidade populacional carta: %.2f habitantes por KM²\n", densidadepopulacional2);
+    printf("O Pib Per Capita é: %.2f Mil reais por habitande. \n", pibpercapita2);
+    printf("\n");
+
+    // REALIZANDO COMPARAÇÃO DE ATRIBUTO E EXIBINDO A CARTA VENCEDORA
+    printf("Comparando qual carta é a vencedora utilizando o atributo: População. \n\n");
+
+    printf("Carta A01 - %s: População %d\n", cidade1, populacao1);
+    printf("Carta A02 - %s: População %d\n", cidade2, populacao2);
+    printf("\n");                                                                           
+
+    if (populacao1 > populacao2){
+        printf("A carta A01 (%s) é a vencedora.\n", cidade1);
+    } else if (populacao1 < populacao2){
+        printf("A carta B02 (%s) é a vencedora.\n", cidade2);
+    } else {
+        printf("Empate!");
+    }
+
+    
 
 
     return 0;
