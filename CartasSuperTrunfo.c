@@ -121,7 +121,7 @@ int main() {
     printf("Quantidade de pontos turísticos: %d \n", turistico2);
     printf("Densidade populacional carta: %.2f habitantes por KM²\n", densidadepopulacional2);
     printf("O Pib Per Capita é: %.2f Mil reais por habitande. \n", pibpercapita2);
-    printf("\n");
+    printf("\n"):
 
     // REALIZANDO COMPARAÇÃO DE ATRIBUTO E EXIBINDO A CARTA VENCEDORA
     printf("Comparando qual carta é a vencedora utilizando o atributo: População. \n\n");
