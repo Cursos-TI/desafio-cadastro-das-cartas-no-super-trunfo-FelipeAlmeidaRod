@@ -124,6 +124,7 @@ int main() {
     printf("\n");
 
     // REALIZANDO COMPARAÇÃO DE ATRIBUTO E EXIBINDO A CARTA VENCEDORA
+    
     printf("Comparando qual carta é a vencedora utilizando o atributo: População. \n\n");
 
     printf("Carta A01 - %s: População %d\n", cidade1, populacao1);
